@@ -1,0 +1,62 @@
+name: Deploy Py to Exe
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set Up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Upgrade pip
+      run: |
+        python -m pip install --upgrade pip
+
+    - name: Install PyInstaller
+      run: |
+        pip install pyinstaller
+
+    - name: Create Executable
+      run: |
+        pyinstaller --onefile --windowed --icon=trash-icon.ico mainapp.py
+
+    - name: Create Program Folder if Not Exists
+      run: |
+        if (-Not (Test-Path -Path "programas")) { New-Item -ItemType Directory -Path "programas" }
+
+    - name: Move Executable to Programas Folder
+      run: |
+        move dist\\mainapp.exe programas\\
+
+    - name: Add Programas Folder Changes
+      run: |
+        git add programas
+
+    - name: Configure Git User
+      run: |
+        git config --local user.email 'github-actions[bot]@users.noreply.github.com'
+        git config --local user.name 'github-actions[bot]'
+
+    - name: Commit Changes
+      run: |
+        git commit -m "Add new version of executável"
+
+    - name: Push Changes
+      run: |
+        git push origin main
+
+    - name: Upload Executable
+      uses: actions/upload-artifact@v2
+      with:
+        name: TrashRepairAndCleaner-v01.exe
+        path: programas\\mainapp.exe
