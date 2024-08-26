@@ -24,4 +24,3 @@ def esvaziar_lixeiras():
 
 if __name__ == "__main__":
     esvaziar_lixeiras()
-#criado por Elias Andrade 26 08 2024 
