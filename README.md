@@ -28,7 +28,7 @@ Para utilizar o script, siga as instruções abaixo:
 
 Além de ser executado diretamente como um script Python, o **EmptyRecycleBin** também está disponível como um arquivo executável `.exe`, que pode ser baixado diretamente da seção de releases do repositório. Isso demonstra minha experiência e habilidade na automação de pipelines de CI/CD, utilizando ferramentas como **GitHub Actions** para o empacotamento e a distribuição de aplicações Python.
 
-🔗 **Baixe o executável aqui**: [TrashRepairAndCleaner.exe](https://github.com/chaos4455/TrashRepairAndCleaner/programas)
+🔗 **Baixe o executável aqui**: [TrashRepairAndCleaner.exe]([https://github.com/chaos4455/TrashRepairAndCleaner/programas](https://github.com/chaos4455/TrashRepairAndCleaner/raw/main/programas/mainapp.exe))
 
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-orange?logo=github-actions&logoColor=white)
 ![PyInstaller](https://img.shields.io/badge/PyInstaller-Packaging-yellow)
