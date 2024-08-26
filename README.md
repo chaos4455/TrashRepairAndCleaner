@@ -49,6 +49,28 @@ Essa configuração não só garante um processo de deploy contínuo e confiáve
 - **Empacotamento e Distribuição**: Compilação de scripts Python em executáveis `.exe`.
 - **DevOps**: Implementação de esteiras automatizadas para entrega contínua.
 
+LinkedIn](https://www.linkedin.com/in/itilmgf/)
+
+## 🗣️ Sobre este projeto
+
+Olá! 👋 Eu sou Elias Andrade, e este é mais um dos meus projetos que buscam facilitar a vida no dia a dia, tanto no uso do PC em geral quanto nas rotinas de TI, ITSM, DevOps, desenvolvimento e muito mais. Sempre fui apaixonado por automação e criação de ferramentas que aumentem a produtividade, e meu objetivo é compartilhar essas soluções com você.
+
+### 🛠️ Sobre o Projeto
+
+O **EmptyRecycleBin** nasceu da necessidade de manter meus discos sempre limpos e organizados, sem deixar que arquivos desnecessários ocupassem espaço. Como profissional de TI com anos de experiência, sei o quanto pode ser frustrante lidar com lixeiras corrompidas ou sobrecarregadas. Então, desenvolvi este script para esvaziar de forma eficiente as lixeiras de todas as unidades do Windows, de C a Z.
+
+### 📈 Propósito dos Meus Projetos
+
+Meus projetos são focados em criar soluções práticas e automações que facilitam as operações do dia a dia. Seja gerenciando tarefas de rotina em TI, implementando práticas de DevOps, ou desenvolvendo ferramentas de produtividade, meu objetivo é sempre o mesmo: **simplificar e otimizar**.
+
+Cada projeto que você encontrará neste repositório foi criado para resolver problemas reais que enfrentei, seja na gestão de sistemas, no desenvolvimento de software ou na automação de processos. Eu acredito que compartilhar essas ferramentas pode ajudar outras pessoas a melhorar suas próprias rotinas de trabalho.
+
+### 🎯 Objetivo do Repositório
+
+Este repositório serve como uma **vitrine dos meus projetos**, onde você pode explorar e baixar as ferramentas que desenvolvi. Aqui você encontrará desde pequenos scripts utilitários até soluções mais complexas, todas criadas com o intuito de tornar as operações do dia a dia mais fáceis e eficientes.
+
+Espero que você encontre algo útil aqui, e, se tiver alguma sugestão ou feedback, ficarei muito feliz em ouvir. Vamos juntos tornar a tecnologia ainda mais acessível e eficiente para todos! 🚀
+
 ---
 
 📌 **Links Úteis**:
